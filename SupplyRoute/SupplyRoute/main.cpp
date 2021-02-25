@@ -1,5 +1,4 @@
-#include <iostream>
-#include <string>
+#include <stdio.h>
 
 int len;
 int dr[4] = { 1, 0, -1, 0 };
@@ -26,10 +25,6 @@ void fill_map(int r, int c, int res)
 	int new_c;
 	int sum;
 
-	if (r == len - 1 && c == len - 1)
-	{
-		if ()
-	}
 	for (int i = 0; i < 4; i++)
 	{
 		new_r = r + dr[i];
@@ -57,7 +52,7 @@ int main()
 {
 	int C;
 
-	ios::
+	scanf("%d", &C);
 	for (int N = 1; N <= C; N++)
 	{
 		scanf("%d", &len);
